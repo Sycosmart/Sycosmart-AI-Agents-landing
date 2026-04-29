@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Un agente de IA en tu WhatsApp que califica leads, agenda reuniones y responde a tus clientes 24/7. Demo gratuita." />
+  <title>Sycosmart · Agentes de IA para WhatsApp</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400;1,9..144,800&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ─────────────────────────────────────────────────────────────────── TOP -->
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a href="#top" class="topbar__brand">
+        <span class="brand-mark">Sycos<span>mart</span></span>
+      </a>
+      <span class="topbar__edition" aria-hidden="true">
+        Edición 01 · MMXXVI · Agentes de IA
+      </span>
+      <a href="#book" class="topbar__cta">
+        Agendar demo
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ───────────────────────────────────────────────────────────────── HERO -->
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="eyebrow" data-reveal>
+          <span class="eyebrow__dot"></span>
+          Agentes de IA para WhatsApp · LATAM
+        </p>
+
+        <h1 class="hero__title" data-split>Mientras <em>descansas</em>, tu agente de IA cierra ventas por <span class="hl">WhatsApp<svg class="hl__underline" viewBox="0 0 240 14" preserveAspectRatio="none" aria-hidden="true"><path d="M2 9 Q 60 1, 120 7 T 238 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>.</h1>
+
+        <p class="hero__lead" data-reveal>
+          Un agente entrenado con tu negocio que califica leads, responde dudas y agenda reuniones por ti — 24 horas al día, en el WhatsApp que tus clientes ya usan.
+        </p>
+
+        <div class="cta-row" data-reveal>
+          <a href="#book" class="btn btn--primary">
+            Agendar demo gratuita
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="https://wa.me/59173115185?text=Hola%2C%20quiero%20ver%20c%C3%B3mo%20funciona%20el%20agente%20de%20IA" target="_blank" rel="noopener" class="btn btn--ghost">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413"/></svg>
+            Hablar por WhatsApp
+          </a>
+        </div>
+
+        <p class="hero__micro" data-reveal>Sin tarjeta de crédito · 30 minutos · Te mostramos un agente real funcionando.</p>
+      </div>
+
+      <!-- Hand-placed chat preview -->
+      <aside class="hero__chat" aria-hidden="true">
+        <div class="chat-card">
+          <div class="chat-card__header">
+            <span class="chat-card__avatar">SA</span>
+            <div>
+              <p class="chat-card__name">Sycosmart Agent</p>
+              <p class="chat-card__status"><span class="dot"></span>en línea</p>
+            </div>
+          </div>
+          <div class="chat-card__body">
+            <div class="bubble bubble--in">
+              👋 Hola, vi que enviaste un audio. Tienes <b>4 leads HOT</b> esperando respuesta. ¿Los califico?
+              <span class="bubble__time">09:14</span>
+            </div>
+            <div class="bubble bubble--out">
+              <span class="audio-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+              <span class="bubble__time">0:08 · 09:14 ✓✓</span>
+            </div>
+            <div class="bubble bubble--in">
+              🎯 Listo. <b>Carlos S.</b> agendado mañana 10am · <b>María T.</b> hoy 4pm · <b>Roberto P.</b> pidió llamada inmediata · <b>Diego J.</b> visita el viernes.
+              <span class="bubble__time">09:14</span>
+            </div>
+          </div>
+        </div>
+        <span class="chat-card__pin">cerrado en 6&nbsp;min</span>
+      </aside>
+    </section>
+
+    <!-- ────────────────────────────────────────────────────────────────── TRUST -->
+    <section class="trust" aria-label="Empresas que ya confían en Sycosmart">
+      <p class="trust__caption">— Empresas que ya agendan ventas durmiendo</p>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Inmobiliaria Equipetrol</span><i></i>
+          <span>Boutique Camba</span><i></i>
+          <span>Distribuidora Oriental</span><i></i>
+          <span>Auto Center Santa Cruz</span><i></i>
+          <span>Restaurante Tradiciones</span><i></i>
+          <span>Gimnasio Vital Fit</span><i></i>
+          <!-- duplicate for seamless loop -->
+          <span>Inmobiliaria Equipetrol</span><i></i>
+          <span>Boutique Camba</span><i></i>
+          <span>Distribuidora Oriental</span><i></i>
+          <span>Auto Center Santa Cruz</span><i></i>
+          <span>Restaurante Tradiciones</span><i></i>
+          <span>Gimnasio Vital Fit</span><i></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ────────────────────────────────────────────────────────────────── STEPS -->
+    <section class="steps">
+      <header class="section-head">
+        <p class="section-head__caption">Cómo funciona</p>
+        <h2 class="section-head__title">
+          Un agente de IA es tu mejor empleado de atención y ventas — sin sueldo y sin descanso.
+        </h2>
+      </header>
+
+      <ol class="steps__list">
+        <li class="step" data-reveal>
+          <span class="step__num">01</span>
+          <h3 class="step__title">Lo conectamos a tu WhatsApp Business.</h3>
+          <p class="step__body">Tu número, tu marca, tu tono. El cliente nunca se entera de que está hablando con una herramienta nueva.</p>
+        </li>
+        <li class="step" data-reveal>
+          <span class="step__num">02</span>
+          <h3 class="step__title">Lo entrenamos con tu negocio.</h3>
+          <p class="step__body">Aprende cómo respondes tú. Tu catálogo, tus precios, tus horarios, tus formas de pago, tus FAQs.</p>
+        </li>
+        <li class="step" data-reveal>
+          <span class="step__num">03</span>
+          <h3 class="step__title">Atiende, califica y agenda 24/7.</h3>
+          <p class="step__body">Tú solo recibes los leads listos para cerrar — con todo el contexto en tu calendario o CRM.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ──────────────────────────────────────────────────────────────── STATS -->
+    <section class="stats">
+      <div class="stat" data-reveal>
+        <span class="stat__num" data-count="40" data-suffix="+">0</span>
+        <span class="stat__unit">hrs/mes</span>
+        <p class="stat__label">recuperadas en atención al cliente</p>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__num">&lt;<span data-count="30">0</span></span>
+        <span class="stat__unit">segundos</span>
+        <p class="stat__label">de respuesta promedio al primer mensaje</p>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__num"><span data-count="3">0</span>×</span>
+        <span class="stat__unit">leads</span>
+        <p class="stat__label">calificados por semana, sin contratar</p>
+      </div>
+    </section>
+
+    <!-- ──────────────────────────────────────────────────────────── DIFFERENT -->
+    <section class="diff">
+      <div class="diff__quote">
+        <span class="diff__mark">“</span>
+        <p>
+          No es un chatbot.<br />
+          Es un <em>agente</em> que entiende tu negocio.
+        </p>
+      </div>
+
+      <ul class="diff__list">
+        <li data-reveal>
+          <h4>Habla como tú, no como un robot.</h4>
+          <p>Conversaciones naturales en español boliviano. Audios, fotos, emojis — los maneja todos.</p>
+        </li>
+        <li data-reveal>
+          <h4>Vive donde están tus clientes.</h4>
+          <p>WhatsApp. No otra app que descargar. No otro link que mandar.</p>
+        </li>
+        <li data-reveal>
+          <h4>Se conecta a lo que ya usas.</h4>
+          <p>Google Calendar, tu CRM, tu inventario, tus hojas de cálculo. Sin proyectos de integración largos.</p>
+        </li>
+        <li data-reveal>
+          <h4>Te lo armamos llave en mano.</h4>
+          <p>Tú no programas nada. Te entregamos el agente funcionando en 7 a 14 días.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ──────────────────────────────────────────────────────────────── CASES -->
+    <section class="cases">
+      <header class="section-head section-head--center">
+        <p class="section-head__caption">Casos reales</p>
+        <h2 class="section-head__title">Dime tu rubro y te muestro lo que hace por ti.</h2>
+      </header>
+
+      <div class="tabs" role="tablist">
+        <button class="tab is-active" role="tab" aria-selected="true" data-tab="sales">Ventas · Inmobiliaria, Auto, B2B</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="ops">Operaciones · Distribuidora, Retail</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="ret">Retención · Gym, SaaS, Suscripciones</button>
+      </div>
+
+      <div class="tab-panels">
+        <article class="tab-panel is-active" data-panel="sales">
+          <h3>Tu agente como asistente de ventas.</h3>
+          <ul>
+            <li>Califica cada lead con preguntas inteligentes (presupuesto, urgencia, necesidad).</li>
+            <li>Agenda visitas y llamadas en el calendario del vendedor correspondiente.</li>
+            <li>Responde dudas sobre productos, precios y financiamiento sin parar.</li>
+            <li>Te entrega los leads <em>calientes</em> listos para cerrar — los fríos los cuida el agente solo.</li>
+          </ul>
+        </article>
+        <article class="tab-panel" data-panel="ops">
+          <h3>Tu agente como hub de operaciones.</h3>
+          <ul>
+            <li>Confirma pedidos por WhatsApp y los registra en tu sistema.</li>
+            <li>Avisa al equipo cuando hay stock bajo o un pedido urgente.</li>
+            <li>Manda recordatorios de pagos, facturas y cobranzas automáticamente.</li>
+            <li>Reduce errores humanos en el proceso de cada día.</li>
+          </ul>
+        </article>
+        <article class="tab-panel" data-panel="ret">
+          <h3>Tu agente como inteligencia de clientes.</h3>
+          <ul>
+            <li>Detecta qué clientes están a punto de cancelar — antes de que cancelen.</li>
+            <li>Manda promociones personalizadas a los que llevan días inactivos.</li>
+            <li>Asigna soporte prioritario a los clientes con problemas técnicos.</li>
+            <li>Predice churn y te avisa con tiempo para reaccionar.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────── OBJECTIONS -->
+    <section class="faq">
+      <header class="section-head">
+        <p class="section-head__caption">Lo que probablemente estás pensando</p>
+        <h2 class="section-head__title">Las preguntas que <em>de verdad</em> te haces.</h2>
+      </header>
+
+      <div class="faq__list">
+        <details class="faq__item" open>
+          <summary>¿Va a sonar como un robot frío?</summary>
+          <p>No. Los chatbots viejos seguían un guion fijo. El agente que armamos usa modelos de lenguaje modernos — entiende contexto, recuerda la conversación y responde como una persona del equipo. Si dudas, podemos pasarte tres conversaciones reales en la demo.</p>
+        </details>
+        <details class="faq__item">
+          <summary>¿Cuánto cuesta?</summary>
+          <p>Hay un setup único y una mensualidad. Te damos el número exacto en la demo, basándonos en tu volumen de mensajes y rubro. La mayoría de nuestros clientes recupera la inversión en 30 a 60 días en horas no gastadas y leads que antes se perdían.</p>
+        </details>
+        <details class="faq__item">
+          <summary>¿Mi negocio es muy específico para esto?</summary>
+          <p>Eso es exactamente lo que lo hace funcionar. El agente se entrena con tu catálogo, precios, formas de pago y FAQs. Lo más específico que sea tu negocio, mejor responde. Trabajamos con inmobiliarias, gimnasios, distribuidoras, autos, restaurantes y servicios B2B.</p>
+        </details>
+        <details class="faq__item">
+          <summary>¿Y si llega una pregunta que no puede responder?</summary>
+          <p>Te lo pasa al instante. El agente sabe sus límites — cuando detecta algo fuera de su alcance, te avisa por WhatsApp con todo el contexto, para que tú o tu equipo cierren. Cero clientes ignorados.</p>
+        </details>
+        <details class="faq__item">
+          <summary>¿Mis datos están seguros?</summary>
+          <p>Sí. La conversación queda en tu cuenta de WhatsApp Business. Las integraciones a CRM o calendario usan tus credenciales. No vendemos data ni la usamos para entrenar modelos de terceros.</p>
+        </details>
+        <details class="faq__item">
+          <summary>¿Cuánto tarda en estar funcionando?</summary>
+          <p>Entre 7 y 14 días desde que firmamos. Eso incluye conexión, entrenamiento con tu información y dos rondas de ajuste fino antes de que hable con clientes reales.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────── TESTIMONIES -->
+    <section class="proof">
+      <header class="section-head">
+        <p class="section-head__caption">Lo que dicen quienes ya lo tienen</p>
+        <h2 class="section-head__title">No te lo decimos solo nosotros.</h2>
+      </header>
+
+      <div class="proof__cards">
+        <figure class="proof-card proof-card--a" data-reveal>
+          <blockquote>“En el primer mes cerramos <em>3× más ventas</em>. El agente califica nuestros leads y agenda visitas mientras dormimos.”</blockquote>
+          <figcaption>
+            <span class="avatar">CS</span>
+            <div>
+              <strong>Carlos Suárez</strong>
+              <span>Director Comercial · Inmobiliaria Equipetrol</span>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="proof-card proof-card--b" data-reveal>
+          <blockquote>“Automatizó todo nuestro inventario y notificaciones. Ahora tenemos tiempo para enfocarnos en crecer.”</blockquote>
+          <figcaption>
+            <span class="avatar">MT</span>
+            <div>
+              <strong>María Fernanda Torrico</strong>
+              <span>Boutique Camba</span>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="proof-card proof-card--c" data-reveal>
+          <blockquote>“El bot responde 24/7 y agenda pruebas de manejo. Pasamos de perder leads a tener agenda llena toda la semana.”</blockquote>
+          <figcaption>
+            <span class="avatar">RP</span>
+            <div>
+              <strong>Roberto Pedraza</strong>
+              <span>Auto Center Santa Cruz</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ───────────────────────────────────────────────────────────── TIMELINE -->
+    <section class="timeline">
+      <header class="section-head">
+        <p class="section-head__caption">Lo que pasa después de agendar la demo</p>
+        <h2 class="section-head__title">De primera llamada a producción, en dos semanas.</h2>
+      </header>
+
+      <ol class="timeline__list">
+        <li class="timeline__item" data-reveal>
+          <span class="timeline__day">Día 1</span>
+          <h3>Demo de 30 minutos.</h3>
+          <p>Te mostramos un agente parecido al que tendrías. Hacemos las preguntas para entender tu negocio. Te decimos qué se puede automatizar y qué no.</p>
+        </li>
+        <li class="timeline__item" data-reveal>
+          <span class="timeline__day">Días 2–4</span>
+          <h3>Propuesta y aprobación.</h3>
+          <p>Te enviamos alcance, precio cerrado y cronograma. Sin sorpresas. Si algo no cuadra, lo ajustamos antes de empezar.</p>
+        </li>
+        <li class="timeline__item" data-reveal>
+          <span class="timeline__day">Días 5–14</span>
+          <h3>Construcción y entrenamiento.</h3>
+          <p>Conectamos tu WhatsApp Business, entrenamos el agente y lo probamos. Tú revisas conversaciones reales antes de soltarlo al cliente.</p>
+        </li>
+        <li class="timeline__item" data-reveal>
+          <span class="timeline__day">Día 14+</span>
+          <h3>En producción.</h3>
+          <p>El agente atiende a tus clientes. Monitoreamos las primeras dos semanas y afinamos lo que haga falta. Luego, soporte continuo.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ────────────────────────────────────────────────────────────── CLOSING -->
+    <section class="closing" id="book">
+      <div class="closing__inner">
+        <p class="closing__caption">— Última parada</p>
+        <h2 class="closing__title">
+          Cada día sin agente,<br />
+          son leads que <em>se enfrían</em><br />
+          y clientes que tu competencia<br />
+          ya está atendiendo.
+        </h2>
+        <p class="closing__lead">
+          Una demo de 30 minutos. Sin compromiso. Si después de verla no te sirve, te decimos honestamente qué deberías hacer en lugar.
+        </p>
+        <div class="cta-row">
+          <a href="https://calendly.com/sycosmart" target="_blank" rel="noopener" class="btn btn--primary btn--lg">
+            Agendar mi demo
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="https://wa.me/59173115185" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">
+            Escribir por WhatsApp
+          </a>
+        </div>
+        <p class="closing__urgency"><em>Aceptamos 4 nuevos clientes por mes para garantizar la calidad del entrenamiento.</em></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ──────────────────────────────────────────────────────────────── FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="brand-mark">Sycos<span>mart</span></span>
+      <p>Agentes de IA y automatización para empresas en LATAM.</p>
+      <ul>
+        <li><a href="#">Privacidad</a></li>
+        <li><a href="#">Términos</a></li>
+        <li><a href="https://wa.me/59173115185" target="_blank" rel="noopener">Contacto</a></li>
+      </ul>
+      <small>© 2026 Sycosmart · Hecho con horas humanas en Santa Cruz, Bolivia.</small>
+    </div>
+  </footer>
+
+  <!-- ─── Libraries ─── -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
